@@ -1,0 +1,119 @@
+.root .header {
+  position: fixed;
+  background-color: #f5f5f5;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+.root .historical {
+  margin-top: 4rem;
+}
+.root .historical .historical-t {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.root .historical .historical-d {
+  display: flex;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+.root .historical .historical-d .historical-d-item {
+  padding: 0.4rem;
+  border-radius: 1rem;
+  background-color: #e0e0e0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.root .hot-search {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 13px;
+  margin-top: 3.5rem;
+}
+.root .hot-search .hot-search-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.root .hot-search .hot-search-list .text-one {
+  color: red;
+}
+.root .hot-search .hot-search-list .name-item {
+  font-size: 12px;
+  color: #A2A2A2;
+}
+.root .hot-search .hot-search-list .hot-search-list-item {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.root .hot-search .hot-search-list .hot-search-list-item .text {
+  color: #A2A2A2;
+}
+.root .hot-search .hot-search-list .hot-search-list-item .name {
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+}
+.root .hot-search .hot-search-list .hot-search-list-item image {
+  height: 15px;
+  width: 15px;
+}
+.root .hot-search .hot-search-list .count {
+  color: #A2A2A2;
+  font-size: 12px;
+}
+.root .search-result-list {
+  margin-top: 3.5rem;
+}
+.root .search-result-list .search-result-item {
+  padding: 10px 0 10px 6px;
+  border-bottom: 1px solid #f8f8f8;
+  font-size: 13px;
+  display: flex;
+  margin-left: 1rem;
+}
+.root .search-result-list .search-result-item .goods-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  margin-left: 1rem;
+  color: #3f3f3f;
+}
+.root .search-result-list .song-list-item {
+  margin-top: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #A2A2A2;
+  justify-content: space-between;
+}
+.root .search-result-list .song-list-item .song-list-item-one {
+  width: 70%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.root .search-result-list .song-list-item .song-list-item-one .singer {
+  font-size: 12px;
+  color: #A2A2A2;
+}
+.root .search-result-list .song-list-item .song-list-item-one .name {
+  font-size: 12px;
+  color: #A2A2A2;
+  display: inline-block;
+}
+.root .search-result-list .song-list-item .song-list-item-one .indexes {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+

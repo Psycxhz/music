@@ -1,0 +1,164 @@
+.root {
+  background: #090909;
+  border: 1px solid transparent;
+}
+.root .cover {
+  width: 150px;
+  height: 150px;
+  background: #000;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.root .cover .cover-play {
+  position: absolute;
+  left: 50%;
+  display: inline-block;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.root .cover image {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: 20s;
+}
+.root .cover image.playto {
+  -webkit-animation: move infinite linear 30s;
+          animation: move infinite linear 30s;
+}
+@-webkit-keyframes move {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes move {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.root .lyric {
+  margin-top: 1rem;
+  font-size: 13px;
+  height: 100px;
+  text-align: center;
+  line-height: 60rpx;
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.root .lyric .other {
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  height: 30px;
+}
+.root .share {
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 13px;
+  text-align: center;
+  width: 30%;
+  border-radius: 1rem;
+  padding: 0.3rem 0rem 0.3rem 0rem;
+  color: white;
+  border: 1px solid white;
+}
+.root .similar {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.root .similar .similar-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.root .similar .similar-header .l {
+  display: flex;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+.root .similar .similar-item {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.root .similar .similar-item .similar-item-l {
+  display: flex;
+}
+.root .similar .similar-item .similar-item-l image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+.root .similar .similar-item .similar-item-l .nameou {
+  color: white;
+}
+.root .similar .similar-item .similar-item-l .nameou view {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  vertical-align: middle;
+}
+.root .comment {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  color: #fff;
+}
+.root .comment .comment-item {
+  margin-top: 1rem;
+}
+.root .comment .comment-item .comment-item-t {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.root .comment .comment-item .comment-item-t .of-likes {
+  display: flex;
+}
+.root .comment .comment-item .comment-item-t .img-name {
+  display: flex;
+  margin-left: 0.5rem;
+}
+.root .comment .comment-item .comment-item-t .img-name image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.root .comment .comment-item .comment-item-t .img-name .name-date view {
+  margin-top: 0.3rem;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.root .comment .comment-item .comment-item-t .img-name text {
+  color: rgba(255, 255, 255, 0.7);
+}
+.root .comment .comment-item .comment-item-d {
+  margin-left: 45px;
+}
+

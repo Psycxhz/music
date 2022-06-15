@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackages",
+      "pages": [
+        "search/search",
+        "songsheet/songsheet",
+        "playmusic/playmusic"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,92 @@
+.root .header {
+  color: #fff;
+  padding-bottom: 2rem;
+  border: 1px solid transparent;
+}
+.root .header .header-item {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.root .header .header-item image {
+  width: 100px;
+  height: 100px;
+  border-radius: 0.5rem;
+}
+.root .header .header-item .conten {
+  width: 200px;
+}
+.root .header .header-item .conten .conten-item {
+  margin-top: 0.5rem;
+}
+.root .header .header-item .conten .conten-item image {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.root .header .header-item .conten .conten-item text {
+  margin-left: 0.5rem;
+}
+.root .header .share {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+.root .song-list {
+  margin-top: -1rem;
+  background-color: #fff;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.root .song-list .song-list-all {
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.root .song-list .song-list-all view {
+  margin-left: 0.2rem;
+}
+.root .song-list .song-list-all text {
+  font-size: 12px;
+  color: #e0e0e0;
+}
+.root .song-list .song-list-item {
+  margin-top: 1rem;
+  width: 95%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.root .song-list .song-list-item .song-list-item-one {
+  width: 70%;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.root .song-list .song-list-item .song-list-item-one .singer {
+  font-size: 12px;
+  color: #e0e0e0;
+}
+.root .song-list .song-list-item .song-list-item-one .name {
+  font-size: 12px;
+  color: #e0e0e0;
+  display: inline-block;
+}
+.root .song-list .song-list-item .song-list-item-one .indexes {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
